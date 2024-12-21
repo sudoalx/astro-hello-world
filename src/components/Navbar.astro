@@ -1,0 +1,16 @@
+---
+import astroLogo from "../assets/astro.svg?raw";
+---
+
+<nav class="flex justify-between w-full py-4 px-6">
+    <div>
+        <a href="#">
+            <Fragment set:html={astroLogo} />
+        </a>
+    </div>
+    <ul class="flex gap-4 h-14">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+</nav>

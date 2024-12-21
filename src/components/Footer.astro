@@ -1,0 +1,15 @@
+---
+
+---
+
+<footer class="p-4 w-full justify-center flex border-t-[0.1px] border-gray-600">
+    <p id="copyright">Copyright &copy;</p>
+</footer>
+
+<script>
+    const currentYear: number = new Date().getFullYear();
+    const copyRight: HTMLElement = document.getElementById(
+        "copyright",
+    ) as HTMLElement;
+    copyRight.textContent += ` ${currentYear}`;
+</script>
